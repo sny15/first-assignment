@@ -6,8 +6,14 @@ h1 {
     font-size: 20px;
 }
 
-section {
+.segment-zero {
     display: flex;
+    margin-bottom: 30%;
+}
+
+.segment-two {
+    display: flex;
+    margin-bottom: 30%;
 }
 
 .segment-one {
@@ -24,5 +30,80 @@ section {
     padding: 20px 40px;
     color: white;
     font-weight: 800;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 1px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#background-gradient {
+    background-image:
+        linear-gradient(to left, rgba(255, 99, 71, 0.4), rgba(255, 99, 71, 0.4)),
+        url('images/watch.png');
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.segment-four {
+    margin-left: 50px;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 15px;
+    font-size: large;
+    color: tomato;
     border-radius: 5px;
 }
